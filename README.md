@@ -4,12 +4,11 @@ You probably need to install nx globally, `npm i -g nx@latest`
 From the root directory:
 ```
 cd libs/lit-library
-npm i```
+npm i
 
-``` 
- cd ../../
- npm i
- nx affected -t lint,test,build --parallel=3 --no-cache   
+cd ../../
+npm i
+nx affected -t lint,test,build --parallel=3 --no-cache   
 ```
 
 You can uncomment the import in libs/lit-library/src/lib/child.ts 
